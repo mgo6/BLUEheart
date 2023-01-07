@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUEheart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="android-chrome-512x512.png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+</head>
+<body>
+     <div class="head">
+        <nav>
+            <img src="blueheart-wings.jpg" class="logo">
+            <h2>BLUEheart</h2>
+            <ul>
+               
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="mangal.png" class="user-pic" onclick="toggleMenu()" >
+
+         <div class="sub-menu-warp" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="mlogo.png" width="100px" height="100px">
+                    <h3>MANGAL GARAI</h3>
+                </div>
+                <hr>
+
+                <a href="#" class="sub-menu-link">
+                    <img src="profile.png">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                
+                
+                <a href="#" class="sub-menu-link">
+                    <img src="setting.png">
+                    <p>Settings</p>
+                    <span>></span>
+                </a>
+                
+                <a href="#" class="sub-menu-link">
+                    <img src="help.png">
+                    <p>Help</p>
+                    <span>></span>
+                </a>
+                
+                <a href="#" class="sub-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+
+
+            </div>
+
+      </div>
+
+        </nav>
+
+     </div>
+     <main class="body-img">
+
+        <h1 class="heading">Hello</h1><br>
+        <h3 class="heading">I'm Mangal.</h3><br><br>
+        <p class="comment">Thank you for visiting my website,<br><br>
+            HAVE A GREAT DAY..
+           </p><br><br>
+           <p class="note">(Tap on the profile picture for MENU)</p>
+        
+         
+     </main>
+
+     </main>
+     <footer>
+        <p class="copyright">©™Copyright reserved by BLUEheart</p>
+     </footer>
+
+
+
+
+     <script>
+
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+
+
+
+     </script>
+
+
+    
+</body>
+</html>

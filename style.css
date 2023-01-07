@@ -1,0 +1,170 @@
+  
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+   font-family: 'Sacramento', sans-serif;
+   color: aqua;
+}
+.copyright{
+    text-align: center;
+}
+footer{
+    height: 10vh;
+    background-color: rgb(47, 47, 212);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+}
+.head{
+    width: 100%;
+    min-height: 10vh;
+    background: #729de3;
+}
+nav{
+    background: #356ac6;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed ;
+}
+.logo{
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+}
+.user-pic{
+    width: 50px;
+    padding: 0px 30px 0px 0px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+ nav ul{
+    width: 70%;
+    text-align: center;
+
+ }
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+ }
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+ }
+ .sub-menu-warp{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+ }
+
+ .sub-menu-warp.open-menu{
+    max-height: 450px;
+ }
+ .sub-menu{
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+
+ }
+ .user-info{
+    display: flex;
+    align-items: center;
+ }
+ .user-info h3{
+    font-weight: 500;
+    
+ }
+ .user-info img{
+    width: 60px;
+    border-radius: 15px;
+
+ }
+ .sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #CCC;
+    margin: 15px 0 15px;
+
+ }
+ .sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3d4f6d;
+    margin: 12px 0;
+
+ }
+ .sub-menu-link p{
+    width: 100%;
+ }
+ .sub-menu-link img{
+    width: 40px;
+    background: #c0c3cc;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+ }
+ .sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+ }
+ .sub-menu-link:hover span{
+    transform: translateX(5px);
+
+ }
+ .sub-menu-link:hover p{
+    font-weight: 600;
+
+ }
+.body-img{
+   width: 110%;
+   height: 100vh;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(photo_2023-01-07_20-01-51.jpg);
+   background-size: cover;
+   height: 100vh;
+
+ }
+ .heading{
+   display: flex ;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Sacramento', sans-serif;
+   font-size: 50px;
+   
+   color: #fff;
+    
+ }
+ .comment{
+   display: flex ;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-size: 25px;
+   
+   
+
+ }
+ .note{
+   display: flex ;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-size: 15px;
+   
+
+ }
